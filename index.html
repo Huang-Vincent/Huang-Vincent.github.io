@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/mdb.min.css">
 
@@ -36,9 +37,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Education </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skills </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Experience </a>
@@ -85,7 +83,7 @@
       <div class="col-sm-8 ml-5 align-items-center">
         <p>I am an undergraduate at Rensselaer Polytechnic Institute (RPI) studying Computer Science and Computer
           Engineering with interests in:</p>
-        <ul style ="font-family: sans-serif;">
+        <ul style="font-family: sans-serif;">
           <li>Data science</li>
           <li>Computer Vision</li>
           <li>Software development</li>
@@ -100,7 +98,7 @@
   </div>
 
   <!-- Education Section -->
-  <div class="container-fluid" style="background-color: #CFCFCF;">
+  <div class="container-fluid education" style="background-color: #CFCFCF;">
     <div class="container">
       <div class="row py-5">
         <div class="col-md-12 text-center heading">
@@ -109,12 +107,17 @@
         <div class="col-sm-2">
           <img src="images/rpi.png" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-sm-8 ml-5 d-flex justify-content-between">
+        <div class="col-sm-9 ml-5 d-flex justify-content-between">
           <div class="text-left flex-grow-1">
-            <p class="font-weight-bold" style="margin-bottom: 0px;">Rensselaer Polytechnic Institute (RPI)</p>
-            <p class="font-weight-bold" >Computer Science, B.S.</p>
+            <div class="row">
+              <div class="col font-weight-bold title_header"> Rensselaer Polytechnic Institute (RPI)</div>
+              <div class="col text-right font-italic">August 2018 - May 2022</div>
+              <div class="w-100"></div>
+              <div class="col font-weight-bold title_ending">B.S. Computer Science, Computer Engineering</div>
+              <div class="col text-right font-italic">Troy, NY</div>
+            </div>
             <p class="wow fadeIn">Relavent Computer Science Coursework: </p>
-            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+            <ul class="wow fadeIn" style="font-family: sans-serif;">
               <li>Algorithms</li>
               <li>Data Structures</li>
               <li>Principles of Software Developement</li>
@@ -123,7 +126,7 @@
               <li>Discrete Math</li>
             </ul>
             <p class="wow fadeIn">Relavent Computer Engineering Coursework: </p>
-            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+            <ul class="wow fadeIn" style="font-family: sans-serif;">
               <li>Electric Circuits</li>
               <li>Signals and Systems</li>
               <li>Engineering Probability</li>
@@ -132,29 +135,113 @@
               <li>Engineering Design</li>
             </ul>
             <p class="wow fadeIn">Academic Honors:</p>
-            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+            <ul class="wow fadeIn" style="font-family: sans-serif;">
               <li>Rensselaer Leadership Award</li>
               <li>Rensselaer Archimedean</li>
               <li>Dean's Honor List</li>
             </ul>
-          </div>
-          <div class="font-italic text-right">
-            <p class="font-weight-bold" style="margin-bottom: 0px;">August 2018 - May 2022</p>
-            <p class="font-weight-bold">Troy, NY</p>
+            <span class="wow fadeIn skill">Python</span>
+            <span class="wow fadeIn skill">C/C++</span>
+            <span class="wow fadeIn skill">Java</span>
+            <span class="wow fadeIn skill">Git</span>
+            <span class="wow fadeIn skill">Prolog</span>
+            <span class="wow fadeIn skill">Scheme</span>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Experience Section -->
+  <div class="container-fluid education">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-12 text-center heading">
+          <h2>Experience</h2>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/twc.png" class="img-fluid icon" alt="Responsive image">
+        </div>
+        <div class="col-sm-9 ml-5 d-flex justify-content-between section_ending">
+          <div class="text-left flex-grow-1">
+            <div class="row">
+              <div class="col font-weight-bold title_header">IBM CodeGraph Research Team</div>
+              <div class="col text-right font-italic">January 2020 - September 2020</div>
+              <div class="w-100"></div>
+              <div class="col font-weight-bold title_ending">Undergraduate Researcher</div>
+              <div class="col text-right font-italic">Troy, NY</div>
+            </div>
+            <p class="wow fadeIn">Researched knowledge graph embeddings for their application towards cognitive
+              assistance in dynamic programming languages.
+              Integrated Bash and Python scripts to download and extract metadata from 120+ Kaggle datasets. Analyzed
+              accuracy of embeddings using popular
+              programming search queries using similarity search.
+            </p>
+            <span class="wow fadeIn skill">Python</span>
+            <span class="wow fadeIn skill">Natural Language Processing</span>
+            <span class="wow fadeIn skill">Shell Scripts</span>
+            <span class="wow fadeIn skill">NumPy</span>
+            <span class="wow fadeIn skill">Pandas</span>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/l3harris.png" class="img-fluid icon" alt="Responsive image">
+        </div>
+        <div class="col-sm-9 ml-5 d-flex justify-content-between section_ending">
+          <div class="text-left flex-grow-1">
+            <div class="row">
+              <div class="col font-weight-bold title_header">L3Harris Technologies</div>
+              <div class="col text-right font-italic">June 2020 - August 2020</div>
+              <div class="w-100"></div>
+              <div class="col font-weight-bold title_ending">Software Engineer Intern</div>
+              <div class="col text-right font-italic">Clifton, NJ</div>
+            </div>
+            <p class="wow fadeIn">Increased internal efficiency by 25 hours per week by developing 
+              a VB script to create a company-wide (50,000+) organizational chart for department 
+              heads to identify teams that have incorrect time card data. Utilized the Agile Scrum methodology, 
+              participated in daily stand-ups and held constant communication with team members and other teams.
+              Presented product to department heads and senior managers.
+            </p>
+            <span class="wow fadeIn skill">Visual Basic</span>
+            <span class="wow fadeIn skill">Agile</span>
+            <span class="wow fadeIn skill">JIRA</span>
+            <span class="wow fadeIn skill">Git</span>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/rpi.png" class="img-fluid icon" alt="Responsive image">
+        </div>
+        <div class="col-sm-9 ml-5 d-flex justify-content-between section_ending">
+          <div class="text-left flex-grow-1">
+            <div class="row">
+              <div class="col font-weight-bold title_header">Rensselaer Polytechnic Institute (RPI)</div>
+              <div class="col text-right font-italic">August 2019 - May 2020</div>
+              <div class="w-100"></div>
+              <div class="col font-weight-bold title_ending">Undergraduate Programming/ECSE Teaching Assistant</div>
+              <div class="col text-right font-italic">Troy, NY</div>
+            </div>
+            <p class="wow fadeIn">
+              Taught and graded C++ programs for 40 Data Structure students. Held weekly office hours and contributed to curriculum design. 
+              Supervised 80 Intro to ECSE students in workshops regarding analog/digital circuits and data generation.
+            </p>
+            <span class="wow fadeIn skill">C++</span>
+            <span class="wow fadeIn skill">Mentoring</span>
+            <span class="wow fadeIn skill">Circuits</span>
+            <span class="wow fadeIn skill">Data Structures</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 
 </html>

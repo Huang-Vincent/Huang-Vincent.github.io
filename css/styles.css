@@ -56,3 +56,50 @@ img {
 p {
   font-family: sans-serif;
 }
+
+.skill {
+  border: 1px solid #50a9d1;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 5px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  font-family: Karla;
+}
+
+img.icon {
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius:50%;
+  float: right;
+  display: block;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: #fff;
+  z-index: 0;
+  object-fit: cover;
+}
+
+.title_header{
+  margin-bottom: 0px;
+}
+.title_ending{
+  margin-bottom: 10px;
+}
+
+.section_ending{
+  padding-bottom: 50px;
+}
