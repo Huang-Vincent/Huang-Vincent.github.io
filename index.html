@@ -1,72 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
+  <title>Vincent Huang | Portfolio </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Vincent Huang</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8" />
 </head>
 
+<html lang="en">
+
 <body>
-  <div class="bgimg-1 container-fluid">
-    <br>
-    <h1 class="display-3 text-light text-center" style="text-shadow: 2px 2px #525252;">Vincent Huang</h1>
-    <ul class="nav justify-content-center nav-pills">
-      <a class="btn btn-primary header-links" href="#" role="button">Education</a>
-      <a class="btn btn-primary header-links" href="#" role="button">Projects</a>
-      <a class="btn btn-primary header-links" href="#" role="button">Skills</a>
-    </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>VH</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+          aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Education </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="view"
+      style="background-image: url('images/background.jpeg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center center;">
+      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb-4 white-text text-center">
+              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+                data-wow-delay="0.3s"><strong>Vincent Huang</strong></h1>
+              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+              <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Computer Science,
+                  Computer Engineering, and Climbing</strong></h5>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s"
+                href="Vincent-Huang-resume.pdf">Resume</a>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s"
+                href="https://github.com/Huang-Vincent">Github</a>
+              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-md-12 text-center heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/Profile_pic.png" class="img-fluid" id="profile_picture" alt="Responsive image">
+      </div>
+      <div class="col-sm-8 ml-5 align-items-center">
+        <p>I am an undergraduate at Rensselaer Polytechnic Institute (RPI) studying Computer Science and Computer
+          Engineering with interests in:</p>
+        <ul style ="font-family: sans-serif;">
+          <li>Data science</li>
+          <li>Computer Vision</li>
+          <li>Software development</li>
+        </ul>
+        <p>In my free time I love to go rock climbing, hiking, or skiing!</p>
+        <ul class="nav nav-pills">
+          <a class="btn btn-elegant wow fadeInDown" href="Vincent-Huang-resume.pdf">Resume</a>
+          <a class="btn btn-elegant wow fadeInDown" href="https://github.com/Huang-Vincent">Github</a>
+        </ul>
+      </div>
+    </div>
   </div>
 
-  <div class="container-fluid" id="education">
-    <div>
-      <h1 class="col text-center">Education</h1>
-    </div>
-
-    <div class="row educationAreas">
-      <div class="col"></div>
-      <div class="col-sm-4">
-        <img src="images/rpi.jpg" class="img-fluid" alt="Responsive image">
+  <!-- Education Section -->
+  <div class="container-fluid" style="background-color: #CFCFCF;">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-12 text-center heading">
+          <h2>Education</h2>
+        </div>
+        <div class="col-sm-2">
+          <img src="images/rpi.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-sm-8 ml-5 d-flex justify-content-between">
+          <div class="text-left flex-grow-1">
+            <p class="font-weight-bold" style="margin-bottom: 0px;">Rensselaer Polytechnic Institute (RPI)</p>
+            <p class="font-weight-bold" >Computer Science, B.S.</p>
+            <p class="wow fadeIn">Relavent Computer Science Coursework: </p>
+            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+              <li>Principles of Software Developement</li>
+              <li>Programming Languages</li>
+              <li>Computer Architecture</li>
+              <li>Discrete Math</li>
+            </ul>
+            <p class="wow fadeIn">Relavent Computer Engineering Coursework: </p>
+            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+              <li>Electric Circuits</li>
+              <li>Signals and Systems</li>
+              <li>Engineering Probability</li>
+              <li>Computer Components and Operations</li>
+              <li>Embedded Control</li>
+              <li>Engineering Design</li>
+            </ul>
+            <p class="wow fadeIn">Academic Honors:</p>
+            <ul class="wow fadeIn" style ="font-family: sans-serif;">
+              <li>Rensselaer Leadership Award</li>
+              <li>Rensselaer Archimedean</li>
+              <li>Dean's Honor List</li>
+            </ul>
+          </div>
+          <div class="font-italic text-right">
+            <p class="font-weight-bold" style="margin-bottom: 0px;">August 2018 - May 2022</p>
+            <p class="font-weight-bold">Troy, NY</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-5">
-        <h5 class="text-info">Rensselaer Polytechnic Institute</h5>
-        <p class="text-success">September 2018 - May 2022</p>
-        <p> I am currently a freshmen dual majoring in Computer Science and Computer and Systems Engineering.
-          Relavent courses include Computer Components and Operations, Data Structures, and Engineering Communications.
-          I participate in Engineers Without Borders, an organization that engineers solutions to bring clean water to
-          residents in Salse, Panama.
-        </p>
-      </div>
-      <div class="col"></div>
-    </div>
-
-    <div class="row educationAreas">
-      <div class="col"></div>
-      <div class="col-sm-4">
-        <img src="images/jps.png" class="img-fluid" alt="Responsive image">
-      </div>
-      <div class="col-sm-5">
-        <h5 class="text-info">John P. Stevens High School</h5>
-        <p class="text-success">September 2018 - May 2022</p>
-        <p> I am certified by the Associated Board of the Royal Schools of Music and received the Gold Prize in the Young Musician Olympia Competition.
-          I was a former Men's Gymnastics Junior Olympian.
-          While in high school, I was the principal second violin for the JPS Chamber Orchestra
-          and concertmaster of the JPS Concert Orchestra. I also participated in Tri-M Music Honor Society,
-          Future Business Leaders of America, and Ski Club.
-        </p>
-      </div>
-      <div class="col"></div>
     </div>
   </div>
 
-
-  <script src="index.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
 
 </html>
