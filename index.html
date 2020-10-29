@@ -27,35 +27,32 @@
           aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
-          <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto" id="top-menu">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me </a>
+              <a class="nav-link" href="#AboutMe">About Me </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills </a>
+              <a class="nav-link" href="#Education">Education </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education </a>
+              <a class="nav-link" href="#Experience">Experience </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experience </a>
+              <a class="nav-link" href="#Projects">Projects </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me </a>
+              <a class="nav-link" href="#ContactMe">Contact Me </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="view"
+    <div class="view" id="Home"
       style="background-image: url('images/background.jpeg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center center;">
       <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <div class="container">
@@ -70,7 +67,6 @@
                 href="Vincent-Huang-resume.pdf">Resume</a>
               <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s"
                 href="https://github.com/Huang-Vincent">Github</a>
-              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Contact me</a>
             </div>
           </div>
         </div>
@@ -79,7 +75,7 @@
   </header>
 
   <!-- About Me Section -->
-  <div class="container">
+  <div class="container" id="AboutMe">
     <div class="row py-5">
       <div class="col-md-12 text-center heading">
         <h2>About Me</h2>
@@ -88,33 +84,46 @@
         <img src="images/Profile_pic.png" class="img-fluid" id="profile_picture" alt="Responsive image">
       </div>
       <div class="col-sm-8 ml-5 align-items-center">
-        <p>I am an undergraduate at Rensselaer Polytechnic Institute (RPI) studying Computer Science and Computer
+        <p style="margin-bottom: 2px;">I am an undergraduate at Rensselaer Polytechnic Institute (RPI) studying Computer
+          Science and Computer
           Engineering with interests in:</p>
-        <ul style="font-family: sans-serif;">
+        <ul style="font-family: sans-serif; margin-bottom: 10px;">
           <li>Data science</li>
           <li>Computer Vision</li>
           <li>Software development</li>
         </ul>
+        <p style="margin-bottom: 2px;">Here are a few languages and technologies I've been working with recently: </p>
+        <div class="row">
+          <div class="col-sm">
+            <ul style="font-family: sans-serif; margin-bottom: 10px;">
+              <li>Python</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul style="font-family: sans-serif; margin-bottom: 10px;">
+              <li>C/C++</li>
+              <li>JS/HTML/CSS</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <ul style="font-family: sans-serif; margin-bottom: 10px;">
+              <li>OpenCV</li>
+              <li>Keras and Tensorflow</li>
+            </ul>
+          </div>
+        </div>
         <p>In my free time I love to go rock climbing, hiking, or skiing!</p>
         <ul class="nav nav-pills">
-          <a class="btn btn-elegant wow fadeInDown" href="Vincent-Huang-resume.pdf">Resume</a>
-          <a class="btn btn-elegant wow fadeInDown" href="https://github.com/Huang-Vincent">Github</a>
+          <a class="btn btn-elegant wow fadeIn" href="Vincent-Huang-resume.pdf">Resume</a>
+          <a class="btn btn-elegant wow fadeIn" href="https://github.com/Huang-Vincent">Github</a>
         </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skills Section -->
-  <div class="container-fluid" style="background-color: #CFCFCF;">
-    <div class="row py-5">
-      <div class="col-md-12 text-center heading">
-        <h2>Skills</h2>
       </div>
     </div>
   </div>
 
   <!-- Education Section -->
-  <div class="container-fluid education">
+  <div class="container-fluid education" id="Education" style="background-color: #CFCFCF;">
     <div class="container">
       <div class="row py-5">
         <div class="col-md-12 text-center heading">
@@ -169,7 +178,7 @@
   </div>
 
   <!-- Experience Section -->
-  <div class="container-fluid education" style="background-color: #CFCFCF;">
+  <div class="container-fluid education" id="Experience">
     <div class="container">
       <div class="row py-5">
         <div class="col-md-12 text-center heading">
@@ -275,14 +284,14 @@
   </div>
 
   <!-- Projects Section -->
-  <div class="container-fluid education">
+  <div class="container-fluid education" id="Projects" style="background-color: #CFCFCF;">
     <div class="container">
       <div class="row py-5">
         <div class="col-md-12 text-center heading">
           <h2>Projects</h2>
           <p>Check out my projects! Click the images to see more info.</p>
         </div>
-        <div class="card-deck card-deck-ending">
+        <div class="card-deck card-deck-ending wow fadeIn">
           <div class="card">
             <div class="card-img-wrap">
               <a href="https://huang-vincent.github.io/">
@@ -368,17 +377,67 @@
         </div>
       </div>
     </div>
-
   </div>
 
+  <!-- Contact Me Section -->
+  <div class="container-fluid education" id="ContactMe">
+    <div class="container">
+      <div class="row py-5 justify-content-center text-center">
+        <div class="col-md-12 text-center heading">
+          <h2>Contact Me</h2>
+          <p>I'd love to connect! Feel free to send me a message.</p>
+        </div>
+        <div class="col col-lg-4">
+          <i class="fas fa-phone-alt fa-3x"></i>
+          <div class="row py-3">
+            <div class="col-md-12 heading">
+              <h4>Call Me</h4>
+              <p>(732) 692-9989</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <i class="fas fa-envelope fa-3x"></i>
+          <div class="row py-3">
+            <div class="col-md-12 heading">
+              <h4>Email Me</h4>
+              <p>vinhuang848@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4">
+          <i class="fab fa-linkedin fa-3x"></i>
+          <div class="row py-3">
+            <div class="col-md-12 heading">
+              <h4>Let's Connect</h4>
+              <a href="https://www.linkedin.com/in/vinhuang848/">LinkedIn Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small black">
+
+    <!-- Copyright -->
+    <div class="text-center py-3">
+      <a href="https://github.com/Huang-Vincent">
+        <i class="fab fa-github fa-2x" id="footer-link"></i>
+      </a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
   <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
