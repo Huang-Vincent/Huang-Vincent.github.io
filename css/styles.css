@@ -14,6 +14,10 @@ header,
   }
 }
 
+.nav-item {
+  margin-right: 10px;
+}
+
 .top-nav-collapse {
   background-color: #78909c !important;
 }
@@ -32,10 +36,6 @@ h1 {
   letter-spacing: 8px;
 }
 
-h5 {
-  letter-spacing: 3px;
-}
-
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px;
@@ -45,7 +45,7 @@ h5 {
   padding-bottom: 25px;
 }
 
-#profile_picture{
+#profile_picture {
   border-radius: 50%;
 }
 
@@ -83,7 +83,7 @@ img.icon {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border-radius:50%;
+  border-radius: 50%;
   float: right;
   display: block;
   margin-left: -95px;
@@ -93,13 +93,42 @@ img.icon {
   object-fit: cover;
 }
 
-.title_header{
+.title_header {
   margin-bottom: 0px;
 }
-.title_ending{
+.title_ending {
   margin-bottom: 10px;
 }
 
-.section_ending{
+.section_ending {
   padding-bottom: 50px;
+}
+
+.card-deck-ending {
+  margin-bottom: 40px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.card-img-wrap {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.card-img-wrap img {
+  transition: transform 0.25s, opacity 0.25s ease-out;
+  width: 100%;
+}
+.card-img-wrap:hover img {
+  transform: scale(1.2);
+  opacity: 0.3;
 }
